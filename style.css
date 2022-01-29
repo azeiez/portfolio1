@@ -17,20 +17,21 @@ section {
 }
 .hulf-width img {
   width: 80%;
+  margin-top: 5px;
 }
 .read-more {
   text-decoration: none;
   background-image: linear-gradient(rgb(67, 199, 50), rgb(255, 255, 255));
-
   color: white;
   font-weight: 700;
-  border-radius: 10;
+  border-radius: 5px;
   display: inline-block;
+  padding: 10px 40px;
+}
+.read-more:hover {
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(67, 199, 50));
 }
 .top-banner {
   background-image: url(/images/top-banner.png);
   background-repeat: no-repeat;
-}
-.r-btn {
-  padding: 20px, 40px;
 }
