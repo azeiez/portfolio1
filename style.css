@@ -10,6 +10,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 100px;
 }
 .hulf-width {
   width: 50%;
@@ -21,7 +22,10 @@ section {
 }
 .read-more {
   text-decoration: none;
-  background-image: linear-gradient(rgb(67, 199, 50), rgb(255, 255, 255));
+  background-image: linear-gradient(
+    rgb(54, 90, 168),
+    rgba(207, 62, 200, 0.712)
+  );
   color: white;
   font-weight: 700;
   border-radius: 5px;
@@ -29,9 +33,14 @@ section {
   padding: 10px 40px;
 }
 .read-more:hover {
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(67, 199, 50));
+  background-image: linear-gradient(rgb(62, 207, 62), rgb(44, 144, 190));
 }
 .top-banner {
   background-image: url(/images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
