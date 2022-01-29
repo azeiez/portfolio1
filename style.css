@@ -8,7 +8,7 @@ h1 {
 .blue-color {
   color: blue;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 100px;
 }
