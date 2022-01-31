@@ -5,6 +5,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 35px;
+}
 .blue-color {
   color: blue;
 }
@@ -43,4 +46,30 @@ h1 {
   background-image: url(/images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.Experiences-aria {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.Experiences-item {
+  width: 44%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 20px;
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 10px;
+}
+#web-dev-exp {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#full-tack-exp {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(204, 0, 255), rgb(0, 255, 128));
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
