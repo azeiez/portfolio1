@@ -39,16 +39,16 @@ h2 {
   background-image: linear-gradient(rgb(62, 207, 62), rgb(44, 144, 190));
 }
 .top-banner {
-  background-image: url(/images/top-banner.png);
+  background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
 .dream-big {
-  background-image: url(/images/dream-bg.png);
+  background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
 .Experiences-aria {
-  background-image: url(/images/exp-bg.png);
+  background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
 }
